@@ -819,6 +819,8 @@ endchoice
 
 comment "Fortify Source needs a glibc toolchain and optimization"
 	depends on (!BR2_TOOLCHAIN_USES_GLIBC || BR2_OPTIMIZE_0)
+
+
 endmenu
 
 source "toolchain/Config.in"
